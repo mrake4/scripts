@@ -1,0 +1,10 @@
+local module = {
+	["F3X"] = "require(16115644787):f3x('%s')";	
+	["Knife"] = "require(16845881628):knife('%s')";	
+	["Ban Hammer"] = "require(16841349091):Hammer('%s')";	
+	["Sword"] = "require(16841300919):Sword('%s')";	
+	["Flashlight"] = "require(16841232225):flash('%s')";	
+	["Rocket Launcher"] = "require(16841262778):rocket('%s')";	
+}
+
+return module
