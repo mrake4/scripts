@@ -1,8 +1,16 @@
-
 local module = {
-	["mrake4"] = 953081984,
-	["utkuxll07"] = 3293205142,
-	["Selahattin957"] = 2365005972,
+    {
+        Name = "mrake4",
+        UserId = 953081984
+    },
+    {
+        Name = "utkuxll07",
+        UserId = 3293205142
+    },
+    {
+        Name = "Selahattin957",
+        UserId = 2365005972
+    }
 }
 
 return module
