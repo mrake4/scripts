@@ -1,10 +1,40 @@
 local module = {
-	["F3X"] = "require(16115644787):f3x('%s')";	
-	["Knife"] = "require(16845881628):knife('%s')";	
-	["Ban Hammer"] = "require(16841349091):Hammer('%s')";	
-	["Sword"] = "require(16841300919):Sword('%s')";	
-	["Flashlight"] = "require(16841232225):flash('%s')";	
-	["Rocket Launcher"] = "require(16841262778):rocket('%s')";	
+    {
+        Name = "F3X",
+        Function = function(Username)
+            require(16115644787):f3x(Username)
+        end
+    },
+    {
+        Name = "Knife",
+        Function = function(Username)
+            require(16845881628):knife(Username)
+        end
+    },
+    {
+        Name = "Ban Hammer",
+        Function = function(Username)
+            require(16841349091):Hammer(Username)
+        end
+    },
+    {
+        Name = "Sword",
+        Function = function(Username)
+            require(16841300919):Sword(Username)
+        end
+    },
+    {
+        Name = "Flashlight",
+        Function = function(Username)
+            require(16841232225):flash(Username)
+        end
+    },
+    {
+        Name = "Rocket Launcher",
+        Function = function(Username)
+            require(16841262778):rocket(Username)
+        end
+    },
 }
 
 return module
