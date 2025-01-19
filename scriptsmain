@@ -1,35 +1,190 @@
 local module = {
-	["Sledge Hammer"] = "require(8038037940).CLoad('%s')";	
-	["Infinite Yield Clean"] = "require(18501895359).CLoad('%s')";	
-	["Grab Gun"] = "require(5146659840).Dark_Eccentric('Dark_Eccentric','%s')";	
-	["I Am The Speed"] = "require(4989873305).load('%s')";	
-	["Bike"] = "require(6701182073).load('%s')";	
-	["Dark Dex"] = "require(10059477467):Fireplace('%s')";	
-	["Nightmare [~sc to stop]"] = "require(4943481014).Nightmare('%s')";	
-	["Grab Knife V3"] = "require(14174586973)('%s')";	
-	["Grab Knife V4"] = "require(14770927892)('%s')";	
-	["Server Admin"] = "require(4665394711).load('%s')";	
-	["Siren Head"] = "require(5239955586).Dark('%s')";	
-	["Can't Sleep"] = "require(6225799838).run('%s')";	
-	["Fraud"] = "require(6080098119).Fraud('%s')";	
-	["Oblivion V2"] = "require(13666904194):Oblivion('%s')";	
-	["Lunatic"] = "require(5813708464).load('%s')";	
-	["S400 Missile"] = "require(10791446752).s400('%s')";	
-	["Fake VR"] = "require(6223977609)['FakeVr']('%s')";	
-	["Cream V3"] = "require(3477084049).c3('%s')";	
-	["Bomb"] = "require(1232280447).load('%s')";	
-	["Thomas the Tank"] = "require(2985076062).load('%s')";	
-	["Sniper"] = "require(2974742698).load('%s')";	
-	["Mustard Gas"] = "require(2989312214).load('%s')";	
-	["RuinEX"] = "require(2966133043):Fire('%s')";	
-	["Horse"] = "require(2992217896):Fire('%s')";	
-	["AK"] = "require(2992342114):Fire('%s')";	
- 	["Preach"] = "require(14174908319)('%s')";	
- 	["Omni God"] = "require(2992342114):Fire('%s')";	
- 	["Red Mist"] = "require(7473206349).load('%s')";	
- 	["Thanos"] = " require(2960340602):Fire('%s', 'test')";	
- 	["Doggo Army"] = "require(5115249013).fehack('%s')";	
-	["Plague Doctor / May not work"] = "require(2966334796):Fire('%s')";
+    {
+        Name = "Sledge Hammer",
+        Function = function(Username)
+            require(8038037940).CLoad(Username)
+        end
+    },
+    {
+        Name = "Infinite Yield Clean",
+        Function = function(Username)
+            require(18501895359).CLoad(Username)
+        end
+    },
+    {
+        Name = "Grab Gun",
+        Function = function(Username)
+            require(5146659840).Dark_Eccentric('Dark_Eccentric',Username)
+        end
+    },
+    {
+        Name = "I Am The Speed",
+        Function = function(Username)
+            require(4989873305).load(Username)
+        end
+    },
+    {
+        Name = "Bike",
+        Function = function(Username)
+            require(6701182073).load(Username)
+        end
+    },
+    {
+        Name = "Dark Dex",
+        Function = function(Username)
+            require(10059477467):Fireplace(Username)
+        end
+    },
+    {
+        Name = "Nightmare [~sc to stop]",
+        Function = function(Username)
+            require(4943481014).Nightmare(Username)
+        end
+    },
+    {
+        Name = "Grab Knife V3",
+        Function = function(Username)
+            require(14174586973)(Username)
+        end
+    },
+    {
+        Name = "Grab Knife V4",
+        Function = function(Username)
+            require(14770927892)(Username)
+        end
+    },
+    {
+        Name = "Server Admin",
+        Function = function(Username)
+            require(4665394711).load(Username)
+        end
+    },
+    {
+        Name = "Siren Head",
+        Function = function(Username)
+            require(5239955586).Dark(Username)
+        end
+    },
+    {
+        Name = "Can't Sleep",
+        Function = function(Username)
+            require(6225799838).run(Username)
+        end
+    },
+    {
+        Name = "Fraud",
+        Function = function(Username)
+            require(6080098119).Fraud(Username)
+        end
+    },
+    {
+        Name = "Oblivion V2",
+        Function = function(Username)
+            require(13666904194):Oblivion(Username)
+        end
+    },
+    {
+        Name = "Lunatic",
+        Function = function(Username)
+           require(5813708464).load(Username)
+        end
+    },
+    {
+        Name = "S400 Missile",
+        Function = function(Username)
+           require(10791446752).s400(Username)
+        end
+    },
+    {
+        Name = "Fake VR",
+        Function = function(Username)
+           require(6223977609)['FakeVr'](Username)
+        end
+    },
+    {
+        Name = "Cream V3",
+        Function = function(Username)
+           require(3477084049).c3(Username)
+        end
+    },
+    {
+        Name = "Bomb",
+        Function = function(Username)
+           require(1232280447).load(Username)
+        end
+    },
+    {
+        Name = "Thomas the Tank",
+        Function = function(Username)
+           require(2985076062).load(Username)
+        end
+    },
+    {
+        Name = "Sniper",
+        Function = function(Username)
+           require(2974742698).load(Username)
+        end
+    },
+    {
+        Name = "Mustard Gas",
+        Function = function(Username)
+           require(2989312214).load(Username)
+        end
+    },
+    {
+        Name = "RuinEX",
+        Function = function(Username)
+           require(2966133043):Fire(Username)
+        end
+    },
+    {
+        Name = "Horse",
+        Function = function(Username)
+           require(2992217896):Fire(Username)
+        end
+    },
+    {
+        Name = "Terrorist",
+        Function = function(Username)
+           require(2992342114):Fire(Username)
+        end
+    },
+    {
+        Name = "Preach",
+        Function = function(Username)
+           require(14174908319)(Username)
+        end
+    },
+    {
+        Name = "Omni God",
+        Function = function(Username)
+           require(2992342114):Fire(Username)
+        end
+    },
+    {
+        Name = "Red Mist",
+        Function = function(Username)
+           require(7473206349).load(Username)
+        end
+    },
+    {
+        Name = "Thanos",
+        Function = function(Username)
+           require(2960340602):Fire(Username, 'test')
+        end
+    },
+    {
+        Name = "Doggo Army",
+        Function = function(Username)
+           require(5115249013).fehack(Username)
+        end
+    },
+    {
+        Name = "Plague Doctor (Maybe Broken)",
+        Function = function(Username)
+           require(2966334796):Fire(Username)
+        end
+    },
 }
 
 return module
