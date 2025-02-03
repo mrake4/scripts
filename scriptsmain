@@ -36,6 +36,12 @@ local module = {
         end
     },
     {
+        Name = "FE Dex Explorer",
+        Function = function(Username)
+            require(81195827857608)(Username)
+        end
+    },
+    {
         Name = "Nightmare [~sc to stop]",
         Function = function(Username)
             require(4943481014).Nightmare(Username)
