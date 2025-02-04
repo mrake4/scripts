@@ -8,7 +8,7 @@ local module = {
     {
         Name = "Infinite Yield Clean",
         Function = function(Username)
-            require(18501895359).CLoad(Username)
+            require(95402557667387)(Username)
         end
     },
     {
