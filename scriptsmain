@@ -191,6 +191,67 @@ local module = {
            require(2966334796):Fire(Username)
         end
     },
+    {
+        Name = "Neurotic",
+        Function = function(Username)
+           require(5617600468).load(Username)
+        end
+    },
+    {
+        Name = "Pyro Flamethrower",
+        Function = function(Username)
+           require(4483948796).load(Username)
+        end
+    },
+    {
+        Name = "Viankos",
+        Function = function(Username)
+           require(6123029966).vian(Username)
+        end
+    },
+    {
+        Name = "Shadow Kars",
+        Function = function(Username)
+           require(6058159336).load(Username)
+        end
+    },
+    {
+        Name = "Dimensiona",
+        Function = function(Username)
+           require(6058166660).load(Username)
+        end
+    },
+    {
+        Name = "Achromatic",
+        Function = function(Username)
+           require(5857033951).load(Username)
+        end
+    },
+    {
+        Name = "Fallen Anger",
+        Function = function(Username)
+           require(4490557105).load(Username)
+        end
+    },
+    {
+        Name = "C4 Weapon",
+        Function = function(Username)
+           require(0x1767bf813)(Username)
+        end
+    },
+    {
+        Name = "Godspeed",
+        Function = function(Username)
+           require(3957090799).load(Username)
+        end
+    },
+    {
+        Name = "Excavator",
+        Function = function(Username)
+           require(16857604287)(Username)
+        end
+    },
+
 }
 
 return module
