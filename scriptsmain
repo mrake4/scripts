@@ -38,7 +38,7 @@ local module = {
     {
         Name = "FE Dex Explorer",
         Function = function(Username)
-            require(81195827857608)(Username)
+            require(17292841603)(Username)
         end
     },
     {
