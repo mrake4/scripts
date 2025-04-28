@@ -251,7 +251,24 @@ local module = {
            require(16857604287)(Username)
         end
     },
-
+    {
+        Name = "Cloud Visualizer",
+        Function = function(Username)
+           require(2966240496):Fire(Username)
+        end
+    },
+    {
+        Name = "Cloud Visualizer",
+        Function = function(Username)
+           require(2966240496):Fire(Username)
+        end
+    },
+    {
+        Name = "Aura Katana",
+        Function = function(Username)
+           require(2966514820):Fire(Username)
+        end
+    },
 }
 
 return module
