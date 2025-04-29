@@ -258,9 +258,9 @@ local module = {
         end
     },
     {
-        Name = "Cloud Visualizer",
+        Name = "Lunar Gauntlet",
         Function = function(Username)
-           require(2966240496):Fire(Username)
+           require(2966463800):Fire(Username)
         end
     },
     {
@@ -269,6 +269,61 @@ local module = {
            require(2966514820):Fire(Username)
         end
     },
+    {
+        Name = "OP Wings",
+        Function = function(Username)
+           require(2974865618).load(Username)
+        end
+    },
+    {
+        Name = "Galaxy Titan",
+        Function = function(Username)
+           require(3044815598).load(Username)
+        end
+    },
+    {
+        Name = "Smite",
+        Function = function(Username)
+           require(03032530303):Ayy(Username)
+        end
+    },
+    {
+        Name = "Van",
+        Function = function(Username)
+           require(2973851516).load(Username)
+        end
+    },
+    {
+        Name = "Internal War",
+        Function = function(Username)
+           require(2967724627).load(Username)
+        end
+    },
+    {
+        Name = "SCP 178",
+        Function = function(Username)
+           require(2992289083):Fire(Username)
+        end
+    },
+    {
+        Name = "Kirito Blades",
+        Function = function(Username)
+           require(2992330335):Fire(Username)
+        end
+    },
+    {
+        Name = "",
+        Function = function(Username)
+           (Username)
+        end
+    },
+    {
+        Name = "Flaming Sythe",
+        Function = function(Username)
+           require(2992345670):Fire(Username)
+        end
+    },
+
 }
 
 return module
